@@ -8,11 +8,18 @@ d= {
    "email" : "sudh@inueron.ai",
    "surname":"kumar",
 }
+d1= {
+    "name":"sudh",
+   "email" : "sudh@inueron.ai",
+   "surname":"kumar",
+}
+d= {
+    "name":"sudh",
+   "email" : "sudh@inueron.ai",
+   "surname":"kumar",
+}coll.insert_one(d1 )
 d= {
     "name":"sudh",
    "email" : "sudh@inueron.ai",
    "surname":"kumar",
 }
-db1=client['mongotest']
-coll= db1['test']
-coll.insert_one(d )
